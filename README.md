@@ -1,15 +1,11 @@
 Raspberry Pi Car Project
 ========================
 
-The Raspberry Pi Car project aims to design a miniature four-wheeled car powered by a Raspberry Pi B+ board.
+This Instructable details the steps required to build a PiCar
 
-This repository contains all the software and hardware source files required to duplicate the car, including:
-* Chassis 3D printer CAD sources.
-* Raspberry Pi B+ breakout PCB to connect peripherals and draw power from LiPo battery.
-* Source code of the following sofware modules capable of:
- * Acquire wheel angle data from two quadrature encoders.
- * Acquire acceleration, angular velocity, and compass data from an I²C LSM9DS1 IMU.
- * Acquire video data from a Raspberry Pi NoIR camera.
- * Acquire position and angle data from a motion-capture server.
- * Control the speed of two brushless DC motors.
- * Control an I²C 8x8 LED matrix.
+*What is PiCar?
+**PiCar is an open sourced autonomous car platform. It isn’t autonomous by itself, but you can easily add sensors to control the car with an Arduino or Raspberry Pi.
+*Why use PiCar instead of an RC car?
+**Using PiCar is very similar to using an RC car as a platform. However, PiCar gives you more control and is easier to modify than an RC car. The chassis for the PiCar is 3D printed, and you can easily edit the 3D model to add more space in the car if needed. In addition, all of the parts are either easily available online or can be 3D printed.
+*Who made PiCar?
+**PiCar was designed at Washington University in St. Louis in the lab of Humberto Gonzalez and Silvia Zhang. The car was designed in May of 2017 and was entered into a robotics competition in June. The PiCar tied for came in the top 10 out of 30+ international teams in the Silk Road Robotics Innovations Competition at Xi'an Jiaotong University in Xi'an, China.
